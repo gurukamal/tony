@@ -1,58 +1,80 @@
 *{
 list-style-type: none;
 text-decoration: none;
-
+text-transform: uppercase;
+}
+.head{
+	padding-top: 30px;
+	float: left;
+	width: 20%;
 }
 .list{
 	float: left;
-	width: 60%;
+	width: 70%;
 	margin-left: 32px;
 	padding-top: -5px;
 }
+.search{
+	width: 5%;
+	float: left;
+	margin-top: 60px;
+}
+.search i{
+	font-size: 17px;
+}
 .list-content, .matter{	
 	float: left;
-	padding: 36px;
-	font-size: 16px;
-	font-weight: 600px;
+	padding: 20px;
+	font-size: 15px;
+	font-weight: 545;
 	color:black;
 	font-family: "proxima_nova_regular", "Helvetica", san-serif;
 }
 h2{
-	    font-family: "proxima_nova_regular", "Helvetica", san-serif;
-	font-size: 33px;
+	font-family: "proxima_nova_regular", "Helvetica", san-serif;
+	font-size: 30px;
 }
-.head{
-	padding-top: 44px;
-	float: left;
-	width: 20%;
-}
+
 .matter{
 	position: relative;
 	display: inline-block;
 }
 .drop{
-	display: none;
+  display: none;
   position: absolute;
   background-color: black;
   min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
+  padding: 14px 16px;
   z-index: 1;
   color:white;
 }
-.matter:hover .drop {
+ .matter:hover .drop {
 	display: block;
 	
 }
 .drop li{
 	padding: 12px;
+	font-size: 14px;
+	text-align: left;
+	display: inline-block;
 }
-.matter a:hover{
-	color: white;
-	background-color: black;
-	padding: 16px;
-	border-bottom: 1px solid white;
-}
+
 a{
 	color: black;
+}
+.drop li:hover{
+	color:#337ab7;
+}
+.matter a {
+	color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+li a:hover, .matter:hover .btn {
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid white;	
 }
