@@ -9,7 +9,7 @@ class App extends React.Component{
 			</div>
 		    <div className="list">
 			    <ul className="list-content">
-				<li className="matter"> <a href="">Mission <i class="fa fa-angle-down"></i></a>
+				<li className="matter"> <a href="" className="btn">Mission <i class="fa fa-angle-down"></i></a>
 				<ul className="drop">
 				<li>Contribution</li>
 				<li>About Tony Robbins</li>
